@@ -1,0 +1,4 @@
+permalink: /:year/:title/
+paginate: 10 
+exclude: 
+name: Thiago Moretto
