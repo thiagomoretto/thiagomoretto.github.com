@@ -1,4 +1,6 @@
-permalink: /:year/:title/
-paginate: 10 
+permalink: /:title
+paginate: 30
 exclude: 
 name: Thiago Moretto
+pygments: true
+lsi: true

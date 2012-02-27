@@ -41,8 +41,10 @@ body, button, input, select, textarea { font-family: sans-serif; color: #222; }
  * Also: hot pink!
  */
 
-::-moz-selection { background: #fe57a1; color: #fff; text-shadow: none; }
-::selection { background: #fe57a1; color: #fff; text-shadow: none; }
+/* ::-moz-selection { background: #fe57a1; color: #fff; text-shadow: none; } */
+/* ::selection { background: #fe57a1; color: #fff; text-shadow: none; } */
+::-moz-selection { background: #C00; color: #fff; text-shadow: none; }
+::selection { background: #C00; color: #fff; text-shadow: none; }
 
 
 /* =============================================================================
@@ -50,7 +52,7 @@ body, button, input, select, textarea { font-family: sans-serif; color: #222; }
    ========================================================================== */
 
 a { color: #00e; }
-a:visited { color: #551a8b; }
+a:visited { color: #00a; }
 a:focus { outline: thin dotted; }
 
 /* Improve readability when focused and hovered in all browsers: people.opera.com/patrickl/experiments/keyboard/test */
@@ -274,3 +276,18 @@ table { border-collapse: collapse; border-spacing: 0; }
   p, h2, h3 { orphans: 3; widows: 3; }
   h2, h3{ page-break-after: avoid; }
 }
+
+body {
+  font: 95% "Lucida Grande", "Trebuchet MS", Verdana, sans-serif;
+  max-width: 720px;
+  margin: 15px auto;
+}
+p { font-color:#333;line-height: 130%; text-align: justify; }
+h1 { color: #000; }
+h2 { color: #A00; }
+h3 { color: #800; }
+h4 { color: #500; }
+h5 { color: #250000; }
+pre { background: #EEE; }
+img { background: #EEE;padding: 10px;}
+div.highlight pre code{padding:0.4em;margin:0.5em auto 1em auto;font-size:13px;white-space:nowrap;display:block;font-family:monospace;overflow-x:auto;white-space:pre;background-color:#eef3fd;border:1px solid #d5dae3}
